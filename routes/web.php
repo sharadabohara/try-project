@@ -20,3 +20,7 @@ Route::get('/', function () {
 Route::get('/homo', function () {
     return 'welcome';
 });
+
+Route::get('/hom', function () {
+    return 'welcome to my network';
+});
