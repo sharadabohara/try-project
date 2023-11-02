@@ -24,3 +24,7 @@ Route::get('/homo', function () {
 Route::get('/hom', function () {
     return 'welcome to my network';
 });
+
+Route::get('/hom2', function () {
+    return 'welcome to my second network';
+});
